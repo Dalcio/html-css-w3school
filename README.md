@@ -2,9 +2,11 @@
 
 ---
 
-## Why HTMl?
+<details>
 
-So I decide learn **html** because:
+<summary><b>Why HTMl?</b></summary>
+
+##### So I decide learn **html** because:
 
 <table border="0">
  <tr>
@@ -21,3 +23,15 @@ So I decide learn **html** because:
     </td>
  </tr>
 </table>
+</details>
+
+<details>
+  <summary><b>What is HTML?</b></summary>
+
+  - **HTML** stands for Hyper Text Markup Language
+  - **HTML** is the standard markup language for creating Web pages
+  - **HTML** describes the structure of a Web page
+  - **HTML** consists of a series of elements
+  - **HTML** elements tell the browser how to display the content
+  - **HTML** elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+</details>
