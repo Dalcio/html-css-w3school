@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<htm>
+
+  <head>
+    <title>Page Title</title>
+  </head>
+
+  <body>
+    <style>
+      body {
+        padding: 20px;
+      }
+      .border {
+        border: 1px #000 solid;
+        padding: 3px 20px 3px 3px;
+        background-color: #DDDDDD;
+      }
+      .border .in {
+        margin: 10px 0 10px 15px;
+      }
+
+      .white {
+        background-color: #fff;
+      }
+      a {
+        color: unset;
+      }
+      #table {
+        text-align: left;
+        border-collapse: collapse;
+      }
+      
+
+      #table td,
+      #table th {
+        padding: 10px;
+      }
+      #table tr:nth-child(odd) {
+        background-color: #DDD;
+      }
+      #table th {
+        background-color: #fff;
+      }
+
+      .note {
+        padding: 15px;
+        background-color: #FFFFCC;
+      }
+    </style>
+    <h1>This not my first heading</h1>
+    <p>This not my first paragraph. I'm restudying <b>HTML</b> for better understanding.</p>
+    <h3>Example Explained</h3>
+    <ul>
+      <li>The <b>&lt;!DOCTYPE html&gt;</b> declarations defines that this document is an <b>HTML5</b> document.</li>
+      <li>The <b>&lt;html&gt;</b> element is the root element of an HTML page.</li>
+      <li>The <b>&lt;head&gt;</b> element contains meta information about the <b>HTML</b> page</li>
+      <li>The <b>&lt;title&gt;</b> element specifies a title for the <b>HTML</b> page (which is shown in the browser's
+        title bar or in the page's tab</li>
+      <li>The <b>&lt;body&gt;</b> element defines the document's body, and is a container for all the visible contents,
+        such as headings, paragraphs, images, hyperlinks, tables, lists, etc</li>
+      <li>The <b>&lt;h1&gt;</b> & <b>&lt;h3&gt;</b> element defines a large heading</li>
+      <li>The <b>&lt;p&gt;</b> element defines a paragraph</li>
+    </ul>
+    <h1>What is an HTML Element?</h1>
+    <p>An <b>HTML</b> element is defined by a start tag, some content, and an end tag:</p>
+    <h2>&lt;tagname&gt;Content goes here...&lt;/tagname&gt;</h2>
+    <p>The HTML <b>element</b> is everything from the start tag to the end tag:</p>
+    <h2>&lt;h1&gt;This is not my first heading&lt;/h1&gt;</h2>
+    <h2>&lt;p&gt;This is not my first paragraph&lt;/p&gt;</h2>
+    <table>
+      <thead>
+        <th>Start tag</th>
+        <th>Element Content</th>
+        <th>End tag</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;h1&gt;</td>
+          <td>This not my first heading </td>
+          <td>&lt;/h1&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;h1&gt;</td>
+          <td>This not my first paragraph </td>
+          <td>&lt;/h1&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;br&gt;</td>
+          <td>none</td>
+          <td>none</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note"><b>Note:</b> Some HTML elements have no content (like the&lt;br&gt; element. These elements are
+      called empty
+      elements. Empty elements do not have and end tag!
+    </p>
+    <div class="border">
+      &lt;html&gt;
+      <div class="border in">
+        &lt;head&gt;
+        <div class="border in">
+          &lt;title&gt;Page title&lt;/title&gt;
+        </div>
+        &lt;/head&gt;
+      </div>
+
+      <div class="border in">
+        &lt;body&gt;
+
+        <div class="border in white">
+          <div class="border in white">
+            &lt;h1&gt;This is heading&lt;/h1&gt;
+          </div>
+          <div class="border in white">
+            &lt;p&gt;This a paragraph.&lt;/p&gt;
+          </div>
+          <div class="border in white">
+            &lt;p&gt;This a paragraph too.&lt;/p&gt;
+          </div>
+        </div>
+        &lt;/body&gt;
+      </div>
+      &lt;/html&gt;
+    </div>
+    <p class="note"><b>Note:</b> The content inside the&lt;body&gt; section (the white area above) will be displayed in
+      browser. The content inside the &lt;title&gt; element will be shown in the browser's title bar or in the page's
+      tab.
+    </p>
+    <h1>HTML History</h1>
+    <p>Since the early days of the world Wide Web, there have been many versions of <b>HTML</b>:</p>
+    <table id="table">
+      <thead>
+        <th>Year</th>
+        <th>Version</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1989</td>
+          <td>Tim Berners-Lee invented www</td>
+        </tr>
+        <tr>
+          <td>1991</td>
+          <td>Tim Berners-Lee invented <b>HTML</b></td>
+        </tr>
+        <tr>
+          <td>1993</td>
+          <td>Dave Raggett drafted <b>HTML+</b></td>
+        </tr>
+        <tr>
+          <td>1995</td>
+          <td><b>HTML</b> Working Group defined <b>HTML 2.0</b></td>
+        </tr>
+        <tr>
+          <td>1997</td>
+          <td><b>W3C</b> Recommendation: <b>HTML 3.2</b></td>
+        </tr>
+        <tr>
+          <td>1999</td>
+          <td><b>W3C</b> Recommendation: <b>HTML 4.01</b></td>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td><b>W3C</b> Recommendation: <b>XHTML 1.0</b></td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td><b>WHATWG HTML5</b> First Public Draft</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td><a href="https://whatwg.org/html/"><b>WHATWG HTML5</b> Living Standard</a></td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td><a href="http://www.w3.org/TR/html5/"><b>W3C</b> Recommendation: <b>HTML5</b></a></td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td><b>W3C</b> Candidate Recommendation: <b>HTML 5.1</b></td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td><a href="http://www.w3.org/TR/html51/"><b>W3C</b> Recommendation: <b>HTML5.1 2nd Edition</b></a></td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td><a href="http://www.w3.org/TR/html52/"><b>W3C</b> Recommendation: <b>HTML5.2</b></a></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note">I'm studying ths latest <b>HTML5</b> standard.</p>
+  </body>
+</htm>
