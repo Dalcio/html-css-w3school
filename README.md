@@ -1,7 +1,5 @@
 # Learning html from w3school
 
----
-
 <details>
 
 <summary><b>Why HTMl?</b></summary>
